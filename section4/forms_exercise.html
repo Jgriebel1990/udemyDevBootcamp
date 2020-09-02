@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input 
+        type="text" 
+        id="firstName" 
+        placeholder="John"
+      >
+      <label for="lastName">Last Name:</label>
+      <input 
+        type="text" 
+        id="lastName" p
+        placeholder="Smith"
+      >
+      <div>
+        <label for="male">Male</label>
+        <input 
+          type="radio" 
+          id="male" 
+          name="gender"
+        >
+        <label for="female">Female</label>
+        <input 
+          type="radio" 
+          id="female" 
+          name="gender"
+        >
+        <label for="other">Other</label>
+        <input 
+          type="radio" 
+          id="other" 
+          name="gender"
+        >
+      </div>
+      <div>
+        <label for="email">Email:
+          <input 
+            type='email' 
+            id="email" 
+            placeholder="your email" 
+            required
+          >
+        </label>
+        <label>Password:
+          <input 
+            type="password"
+            pattern=".{6, 14}" 
+            required 
+            title="6 to 14 characters"
+          >
+        </label>
+      </div>
+      <div>
+        <label>Birthday:</label>
+        <select>
+          <option>Month</option>
+          <option>1</option>
+          <option>2</option>
+        </select>
+        <select>
+          <option>Day</option>
+          <option>1</option>
+          <option>2</option>
+        </select>
+        <select>
+          <option>Year</option>
+          <option>1990</option>
+          <option>1991</option>
+        </select>
+      </div>
+      <div>
+        <label>I agree to the terms and conditions</label>
+        <input type='checkbox'>
+        <input type="submit">
+      </div>
+    </form>
+  </body>
+</html>
