@@ -1,0 +1,39 @@
+body {
+  border: 20px solid #7ac4a8;
+  padding: 20px;
+  width: 700px;
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.p-border {
+  border-left: 6px solid #7ac4a8;
+  margin-left: 3%;
+  padding-left: 1%;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+h1 {
+  margin-left: 3%;
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  color: #12875a
+}
+
+h3 {
+  margin-left: 3%;
+  font-family: 'Crimson Text', serif;
+  color: #12875a
+}
+
+hr {
+  margin-left: 3%;
+  margin-right: 3%;
+  border: 2px solid #7ac4a8;
+  height: 1px;
+}

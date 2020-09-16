@@ -1,0 +1,17 @@
+body {
+  /* background: url('https://i.pinimg.com/originals/51/5a/0b/515a0bf41b4e20782c248621cc243db4.jpg'); */
+  background: lightcoral;
+}
+
+h1 {
+  color: cadetblue;
+  border: 8px groove black;
+}
+
+li {
+  color: forestgreen;
+}
+
+h4 {
+  background: lightsalmon;
+}

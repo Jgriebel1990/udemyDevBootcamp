@@ -1,0 +1,20 @@
+body {
+  background: oldlace;
+}
+
+li {
+  border: 1px solid black;
+}
+
+#special{
+  background: purple;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+* {
+  border: 5px dashed green;
+}
+
